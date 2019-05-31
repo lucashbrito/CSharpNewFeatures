@@ -6,7 +6,7 @@ namespace CSharpSevenFeatures
     {
         public void Run()
         {
-            Employee1 theEmployee = new VicePresidente
+            Employee12 theEmployee = new VicePresidente
             {
                 Salary = 175000,
                 Years = 7,
@@ -14,7 +14,7 @@ namespace CSharpSevenFeatures
                 StockShares = 6000
             };
 
-            Employee1 theEmployee1 = new VicePresidente();
+            Employee12 theEmployee1 = new VicePresidente();
             theEmployee1.Salary = 8000;
             theEmployee1.Years = 8;
             (theEmployee1 as VicePresidente).NumberManaged = 343;
@@ -30,7 +30,7 @@ namespace CSharpSevenFeatures
                     WriteLine($"Manager with:{m.NumberManaged} reporting");
                     break;
 
-                case Employee1 e:
+                case Employee12 e:
                     WriteLine($"Employee with salary:{e.Salary}");
                     break;
 
@@ -41,13 +41,13 @@ namespace CSharpSevenFeatures
 
     }
 
-    public class Employee1
+    public class Employee12
     {
         public int Salary { get; set; }
         public int Years { get; set; }
     }
 
-    public class Manager : Employee1
+    public class Manager : Employee12
     {
         public int NumberManaged { get; set; }
     }

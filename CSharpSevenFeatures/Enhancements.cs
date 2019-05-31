@@ -16,10 +16,10 @@ namespace CSharpSevenFeatures
             position = -8;
             Write(numbers[4]);
 
-            Employee1 joe = new Employee1("Manager");
+            var joe = new Employee1("Manager",0);
             Write(joe.Position);
 
-            Employee1 mary = new Employee1(null);
+            var mary = new Employee1(null,0);
             WriteLine(mary.Position);
         }
 
