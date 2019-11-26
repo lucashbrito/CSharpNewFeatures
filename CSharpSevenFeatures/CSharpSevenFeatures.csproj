@@ -64,6 +64,7 @@
     <Compile Include="DeconstructingTuples.cs" />
     <Compile Include="Enhancements.cs" />
     <Compile Include="LocalFunctions.cs" />
+    <Compile Include="OldFeatures\ValueReferenceType.cs" />
     <Compile Include="PatternMatching.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -87,5 +88,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
