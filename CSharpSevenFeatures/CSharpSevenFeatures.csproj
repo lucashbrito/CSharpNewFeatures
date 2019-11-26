@@ -63,7 +63,14 @@
   <ItemGroup>
     <Compile Include="DeconstructingTuples.cs" />
     <Compile Include="Enhancements.cs" />
+    <Compile Include="GenericDelegate.cs" />
+    <Compile Include="List\ArrayListClass.cs" />
+    <Compile Include="List\HashtableClass.cs" />
+    <Compile Include="List\QueueClass.cs" />
+    <Compile Include="List\SortedListClass.cs" />
+    <Compile Include="List\StackClass.cs" />
     <Compile Include="LocalFunctions.cs" />
+    <Compile Include="OldFeatures\StringBuilderClass.cs" />
     <Compile Include="OldFeatures\ValueReferenceType.cs" />
     <Compile Include="PatternMatching.cs" />
     <Compile Include="Program.cs" />
@@ -71,6 +78,7 @@
     <Compile Include="ReadonlyStruct.cs" />
     <Compile Include="SwitchStatements.cs" />
     <Compile Include="OutVariables.cs" />
+    <Compile Include="TupleClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
