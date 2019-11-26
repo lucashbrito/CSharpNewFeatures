@@ -61,7 +61,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomException\InvalidStudentNameException.cs" />
     <Compile Include="DeconstructingTuples.cs" />
+    <Compile Include="Delegate\DelegateClass.cs" />
     <Compile Include="Enhancements.cs" />
     <Compile Include="GenericDelegate.cs" />
     <Compile Include="List\ArrayListClass.cs" />
