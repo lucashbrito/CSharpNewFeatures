@@ -1,4 +1,6 @@
-﻿namespace CSharpSevenFeatures
+﻿using CSharpSevenFeatures.Delegate;
+
+namespace CSharpSevenFeatures
 {
     class Program
     {
@@ -8,6 +10,10 @@
 
             LocalFunctions lF = new LocalFunctions();
             lF.Run();
+
+            Exemple exemple = new Exemple();
+
+            exemple.Main();
         }
     }
 }

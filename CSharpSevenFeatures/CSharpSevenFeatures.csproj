@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>CSharpSevenFeatures</RootNamespace>
     <AssemblyName>CSharpSevenFeatures</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
@@ -63,7 +63,13 @@
   <ItemGroup>
     <Compile Include="CustomException\InvalidStudentNameException.cs" />
     <Compile Include="DeconstructingTuples.cs" />
+    <Compile Include="Delegate\ActionClass.cs" />
     <Compile Include="Delegate\DelegateClass.cs" />
+    <Compile Include="Delegate\Exemple.cs" />
+    <Compile Include="Delegate\FuncClass.cs" />
+    <Compile Include="Delegate\NumberSubscriber.cs" />
+    <Compile Include="Delegate\PredicateDelegate.cs" />
+    <Compile Include="Delegate\PrintHelperEvent.cs" />
     <Compile Include="Enhancements.cs" />
     <Compile Include="GenericDelegate.cs" />
     <Compile Include="List\ArrayListClass.cs" />
